@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+body {
+    background-image: url(https://icdn.lenta.ru/images/2019/09/06/04/20190906044316173/square_1280_b25e8f2bf29d84b84dc61c53d19079fa.jpg) ;
+    color: rgb(9, 255, 0);
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: grey;
+}
+.avatar {
+    width: 200px;
+    border-radius:28px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,025);
+}
+
+.info{
+    margin-bottom: 20px;
+}
+
+.info p{
+    color: grey;
+    margin: 0;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 50%;
+    margin: auto;
+}
+
+.bg-yellow{
+    background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/15201/production/_96092568_1d50dcbf-f4d1-40b8-bf61-c01779c49bea.jpg) ;
+    border-radius:28px;
+    color: rgb(255, 251, 0);
+}
+
+    
+.bg-green{
+    background-image: url(https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2019/06/30_June-2019_WorldPride_UN-GLOBE.jpg/image1170x530cropped.jpg);
+    border-radius:28px;
+    
+}
+
+
+.card{
+    padding: 15px 15px;
+    margin-bottom: 15px;
+}
